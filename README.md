@@ -17,6 +17,7 @@ nginx -s stop kill the process
 config nginx.conf
 
 Creating a proxy to Node ==> nginx ==> server
+
  ```
  location / {
             root   html;
@@ -28,7 +29,7 @@ Creating a proxy to Node ==> nginx ==> server
             $proxy_add_x_forwarded_for;
             proxy_set_header X-NginX-Proxt true;
 
-            proxy_pass      http://localhost:3000/; 
+            proxy_pass      http://localhost:3000/;
             proxy_redirect off;
         }
 ```

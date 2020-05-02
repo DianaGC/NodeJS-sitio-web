@@ -34,3 +34,9 @@ Creating a proxy to Node ==> nginx ==> server
         }
 ```
 
+### Create express base rute
+install express ```npm install express``` 
+modify the app.js file. 
+
+### Create store with pug
+in the file index.pug

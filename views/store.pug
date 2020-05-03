@@ -1,0 +1,12 @@
+doctype html
+html(lang='en')
+head
+    title  Store
+    link(rel="stylesheet", href="/stylesheets/index.css")
+body
+    h1 
+        a(href="fruits.com") Store of fruits
+    each tshirt in tshirts
+        div.item
+            h2 tshirt  #{tshirt.color}
+            img(src=tshirt.image, alt="")

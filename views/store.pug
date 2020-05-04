@@ -9,4 +9,5 @@ body
     each tshirt in tshirts
         div.item
             h2 tshirt  #{tshirt.color}
-            img(src=tshirt.image, alt="")
+            img(src=tshirt.image, alt="tshirt")
+            a(href="store/buy/"+tshirt.color) buy

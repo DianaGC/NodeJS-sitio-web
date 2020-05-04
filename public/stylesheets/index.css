@@ -38,7 +38,7 @@ img{
     display: block;
     margin: auto;
 }
-.buy{
+.item a{
     display: block;
     height: 30px;
     width: 100px;
@@ -51,7 +51,7 @@ img{
     margin: 20px auto;
     border-radius: 5px;
 }
-.buy:hover{
+.item a:hover{
     background: green;
     color: black;
 }

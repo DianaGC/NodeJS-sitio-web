@@ -40,3 +40,6 @@ modify the app.js file.
 
 ### Create store with pug
 in the file index.pug
+
+## to run whit nodemon
+```nodemon servidor.js```
